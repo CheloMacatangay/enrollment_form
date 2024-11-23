@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+
+  .form-container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .instructions {
+    color:grey;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-group label {
+    flex: 0 0 120px; 
+    margin-right: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input, select, button {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+ 
+  input[type="radio"], input[type="checkbox"] {
+    flex: 0; 
+    margin-right: 5px; 
+  }
+  
+  .radio-group, .checkbox-group {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px; 
+  }
+  
+  .radio-group label, .checkbox-group label {
+    margin-right: 10px; 
+    color: #555;
+  }
+  
+
+  button {
+    background-color: #4c00ff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #7a2da7;
+  }
+  
+
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4d13ab;
+    color: white;
+  }
+  
